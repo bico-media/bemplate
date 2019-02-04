@@ -143,8 +143,16 @@ If you provide content from the blockchain you are compatible with the B://empla
 
 - Handle tx32 referenced transactions according to the B://ynamic protocol.
 
+## Implementations
 
+|Template engine|Supported on blockchain gateway|
+|---------------|-------------------------------
+|[Liquid](https://shopify.github.io/liquid/)| No known implementations
+|[Pug](https://pugjs.org)| No known implementations
+|[Handlebars](https://handlebarsjs.com/)| No known implementations 
+|[Mustache](https://mustache.github.io/)| No known implementations
 
+Please note that the listed templating engines are examples and does not limit any other templating engine form being implemented. 
 
 ----
 
