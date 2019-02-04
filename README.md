@@ -1,6 +1,6 @@
 Status: idea
 
-# Your favourite templating engine for your blockchain content.
+# Templating engine for blockchain data
 
 > Let's get a common way of engaging templating engines for content on the blockchain.
 
