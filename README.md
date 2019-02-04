@@ -20,7 +20,7 @@ In the following, we will refer to `main data object` to refer to the data conte
 _Apoint data and template_
 
 The `1GQuCczfJrvQqK9Vr64BQ8zJ9b7fiXq6Fg` bitcom namespace shall have 3 arguments and be placed on 1st position after an `OP_RETURN` code. 
-1. A string named `engine`
+1. A string named `engine name`
 2. A transaction ID called `template` 
 3. A transaction ID called `data
 
@@ -50,7 +50,7 @@ If you provide content from the blockchain you are compatible with the B://Bempl
 _Apoint template_
 
 The `15SyJjP3VTaVWNEces7syqYeSjTF2kU3mq` bitcom namespace shall have 3 arguments and be position anywhere after an `OP_RETURN` code. 
-1. A string named `engine`
+1. A string named `engine name`
 3. A transaction ID called `template`
 
 If you provide content from the blockchain you are compatible with the B://Bemplate protocol v3 if you:
@@ -143,6 +143,22 @@ If you provide content from the blockchain you are compatible with the B://empla
 
 - Handle tx32 referenced transactions according to the B://ynamic protocol.
 
+
+## Template engine names
+
+The following templating engines must be identified by its `engine name`. The engine names are case insensitive.
+
+|Template engine|Engine name|Example for B://Bemplate  v4|
+|---------------|-------------------------------
+|[Liquid](https://shopify.github.io/liquid/)| `liquid`| `{{liquid=B://}}`
+|[Pug](https://pugjs.org)| `liquid`| `{{liquid=B://}}`
+|[Handlebars](https://handlebarsjs.com/)| `liquid`| `{{liquid=B://}}`
+|[Mustache](https://mustache.github.io/)| `liquid`| `{{liquid=B://}}`
+
+
+Please notet that this list is only a start. Please add more are other templating engines get implemented. 
+
+
 ## Implementations
 
 |Template engine|Supported on blockchain gateway|
@@ -152,7 +168,6 @@ If you provide content from the blockchain you are compatible with the B://empla
 |[Handlebars](https://handlebarsjs.com/)| No known implementations 
 |[Mustache](https://mustache.github.io/)| No known implementations
 
-Please note that the listed templating engines are examples and does not limit any other templating engine form being implemented. 
 
 ----
 
