@@ -65,7 +65,7 @@ If you provide content from the blockchain you are compatible with the B://Bempl
 
 ### Version 4
 
-_Pull data from templat_
+_Pull data from template_
 
 If you provide content from the blockchain you are compatible with the B://Bemplate protocol v4 if you:
 
