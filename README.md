@@ -6,7 +6,7 @@ Status: idea
 
 This document describes the protocol "B://emplate" (pronounced bemplate). Please share [inputs and comments](https://github.com/bico-media/bemplate/issues).
 
-Introduction
+## Introduction
 
 Templating is a common way of merging data with structure. Different templating engines have different syntax and options for logic but a shared feature is that they have source data in a structured way and a template for using those data. 
 The B://emplate protocol describes a common way of using templating engines for data stored on the blockchain. Please note that no specific templating engine is suggested or recommended. 
