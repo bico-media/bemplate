@@ -148,12 +148,12 @@ If you provide content from the blockchain you are compatible with the B://empla
 
 The following templating engines must be identified by its `engine name`. The engine names are case insensitive.
 
-|Template engine|Engine name|Example for B://Bemplate  v4|
-|---------------|-------------------------------
+|Template engine|Engine name|Example for v4|
+|---------------|----------------|---------------
 |[Liquid](https://shopify.github.io/liquid/)| `liquid`| `{{liquid=B://}}`
-|[Pug](https://pugjs.org)| `liquid`| `{{liquid=B://}}`
-|[Handlebars](https://handlebarsjs.com/)| `liquid`| `{{liquid=B://}}`
-|[Mustache](https://mustache.github.io/)| `liquid`| `{{liquid=B://}}`
+|[Pug](https://pugjs.org)| `pug`| `{{pug=B://}}`
+|[Handlebars](https://handlebarsjs.com/)| `handlebars`| `{{handlebars=B://}}`
+|[Mustache](https://mustache.github.io/)| `mystache`| `{{mustache=B://}}`
 
 
 Please notet that this list is only a start. Please add more are other templating engines get implemented. 
