@@ -1,4 +1,4 @@
-Status: idea
+Status: draft
 
 # Templating for blockchain content
 
@@ -9,9 +9,9 @@ This document describes the protocol "B://emplate" (pronounced bemplate). Please
 ## Introduction
 
 Templating is a common way of merging data with structure. Different templating engines have different syntax and options for logic but a shared feature is that they have source data in a structured way and a template for using those data. 
-The B://emplate protocol describes a common way of using templating engines for data stored on the blockchain. Please note that no specific templating engine is suggested or recommended. 
+The B://emplate protocol describes a common way of using templating engines for content stored on the blockchain. Please note that no specific templating engine is suggested or recommended. 
 
-In the following, we will refer to `main data object` to refer to the data context in which a template engine will run. 
+In the following, we will use `main data object` to refer to the data context in which a template engine will run. 
 
 ## Overview
 
