@@ -1,5 +1,3 @@
-Status: inspiration
-
 # Ideas for templating with blockchain content
 
 > Let's have a shared way of thinking about engaging templating engines for content on the blockchain.
